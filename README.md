@@ -2,7 +2,7 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 
 之前用过SD-PPP节点的小伙伴都感觉非常麻烦，SD-PPP节点升级了，另外Photoshop还要比较复杂去手动去安装插件，造成SD-PPP不能及时使用最新版的Photoshop插件的功能，带来不好体验。SD-PPP节点开发人员，是非常有负责任心的，社区和群里面体验者有反馈BUG或者建议功能，第一时间去修复BUG或更新功能，所以更新频率非常高，在此给SD-PPP节点开发人员大大点赞！！！
 
-CCXManag辅助节点很好解决小伙伴的使用SD-PPP节点升级后痛点，CCXManag设置完运行一次，插件自动记忆你设置的信息，下次重启COMFYUI自动运行CCXManag节点，保证无论是否SD-PPP节点有升级，Photoshop插件都是同步更新的。使用CCXManag节点，你们完全可以忽略再去Photoshop更新插件了。
+CCXManag辅助节点很好解决小伙伴的使用SD-PPP节点升级后痛点，CCXManag设置完运行一次，插件自动记忆你设置的信息，下次重启COMFYUI自动运行CCXManag节点，保证无论是否SD-PPP节点有升级，Photoshop插件照样同步更新的。使用CCXManag节点，你们完全可以忽略再去Photoshop更新插件了。
 
 CCXManag节点添加了可视化功能：节点运行后在COMFYUI控制台，可以查到CCXManag节点运行的信息。
 
