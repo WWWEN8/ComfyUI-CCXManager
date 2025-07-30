@@ -77,11 +77,19 @@ ccx_filename输入选择保持默认即可
 
 auto_run_on_restart选择输入：
 enable代表开启，重启COMFYUI自动运行，开启了Photoshop插件同步更新功能。（默认）
+
 disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件同步更新功能。
 
 
 输入完路径参数，运行后，控制台会显示运行信息，如下表示成功了。
 
+enable开启，下次重启COMFYUI，控制台也会显示运行信息。
+
 <img width="1520" height="1045" alt="16d757b7-8e4e-4859-a3f3-c3deaa72240b" src="https://github.com/user-attachments/assets/9bde7925-ed34-4c0e-a5b3-c2e09e0406a4" />
 
 <img width="1321" height="265" alt="fb653b8b-13e8-4666-a93d-6fb08c91d3a1" src="https://github.com/user-attachments/assets/03125652-5bc0-45ec-bc1d-a7d62799c35c" />
+
+disable选择禁用后，要运行节点一次，才能生效，重启COMFYUI控制台也会显示运行信息（enable开启同理）：
+
+<img width="561" height="76" alt="7f3993e0-7934-4b50-ae73-15401ec38699" src="https://github.com/user-attachments/assets/a0e2e353-0995-4268-b9fb-652c1709f9ba" />
+
