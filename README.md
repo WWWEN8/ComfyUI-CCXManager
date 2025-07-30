@@ -60,4 +60,15 @@ If it has been included in the ComfyUI Manager, you can directly search for "CCX
 
 <img width="1388" height="981" alt="5e1d3fb9-3c1b-4cdd-a2d2-b2c785466a5e" src="https://github.com/user-attachments/assets/843c6343-9f2b-418e-9f31-2de4137bf57f" />
 
+source_path输入：
+static文件路径，如：
+<img width="1069" height="415" alt="1b5addcf-5bfc-4d5f-b6ab-179fd8630a5c" src="https://github.com/user-attachments/assets/7eb154f7-2a55-4f10-87ff-3146d83a2036" />
+
+target_path输入：
+1.SDPPP插件自动更新助手1.0节点输入：sd-ppp_PS文件路径，如：
+<img width="700" height="285" alt="9408e409-d9f0-42da-a136-c4dd6da0e567" src="https://github.com/user-attachments/assets/0fc25307-fbf0-4ff8-93b5-05f71a1c1cd7" />
+2.SDPPP插件自动更新助手2.0节点输入：sd-ppp2_PS文件路径，如：
+<img width="745" height="234" alt="9eeecf46-a559-459f-bd41-dbde4710cee0" src="https://github.com/user-attachments/assets/853c2302-e414-4dc4-85cf-519b98144d6c" />
+
+
 
