@@ -42,6 +42,7 @@ static文件路径，如：
 
 
 target_path输入：
+
 1.SDPPP插件自动更新助手1.0节点输入：sd-ppp_PS文件路径，如：
 
 <img width="700" height="285" alt="9408e409-d9f0-42da-a136-c4dd6da0e567" src="https://github.com/user-attachments/assets/3f478c7e-8d20-4f96-beab-9f4e9cf8e63d" />
