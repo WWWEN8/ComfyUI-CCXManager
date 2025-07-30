@@ -17,12 +17,15 @@ CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行。
 安装CCXManag节点：
 
 方法一：Git Clone（推荐）
+
 cd ComfyUI/custom_nodes
+
 git clone https://github.com/WWWEN8/SDPPPautoupdate.git
 
 方法二：手动下载
 下载本项目的ZIP文件
 解压到 ComfyUI/custom_nodes/
+
 确保文件夹结构正确
 
 方法三：ComfyUI Manager
