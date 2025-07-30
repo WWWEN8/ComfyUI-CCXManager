@@ -24,4 +24,3 @@ Ensure the folder structure is correct
 Method 3: ComfyUI Manager
 If it has been included in the ComfyUI Manager, you can directly search for "CCXManag" to install it.
 
-Method for using the CCXManag node:
