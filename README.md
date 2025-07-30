@@ -65,7 +65,7 @@ enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photosh
 
 运行节点后控制台，会显示运行信息如下（COMFYUI重启后也会看到控制台运行信息）：
 
-<img width="1376" height="195" alt="54f5c112-545d-4015-9186-c2cc553f8e9c" src="https://github.com/user-attachments/assets/df094e17-8377-4d87-83f8-d823597b71af" />
+<img width="1335" height="310" alt="6bf450a4-791f-4c37-b715-6ee0116021a6" src="https://github.com/user-attachments/assets/49ccfa41-0039-446a-9b56-1cd346611e1f" />
 
 到Photoshop软件查看插件是否安装成功
 
