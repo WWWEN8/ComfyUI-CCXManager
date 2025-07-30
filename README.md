@@ -58,3 +58,6 @@ Ensure the folder structure is correct
 Method 3: ComfyUI Manager
 If it has been included in the ComfyUI Manager, you can directly search for "CCXManag" to install it.
 
+<img width="1388" height="981" alt="5e1d3fb9-3c1b-4cdd-a2d2-b2c785466a5e" src="https://github.com/user-attachments/assets/843c6343-9f2b-418e-9f31-2de4137bf57f" />
+
+
