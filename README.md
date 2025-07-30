@@ -20,7 +20,7 @@ CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行。
 
 cd ComfyUI/custom_nodes
 
-git clone https://github.com/WWWEN8/SDPPPautoupdate.git
+git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 
 方法二：手动下载
 下载本项目的ZIP文件
