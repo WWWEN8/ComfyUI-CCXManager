@@ -41,8 +41,7 @@ static文件路径，如：
 target_path输入：
 1.SDPPP插件自动更新助手1.0节点输入：sd-ppp_PS文件路径，如：
 
-<img width="745" height="234" alt="9eeecf46-a559-459f-bd41-dbde4710cee0" src="https://github.com/user-attachments/assets/b84f4640-ca8d-4e12-af05-637818b9cebf" />
-
+<img width="700" height="285" alt="9408e409-d9f0-42da-a136-c4dd6da0e567" src="https://github.com/user-attachments/assets/3f478c7e-8d20-4f96-beab-9f4e9cf8e63d" />
 
 2.SDPPP插件自动更新助手2.0节点输入：sd-ppp2_PS文件路径，如：
 
@@ -51,7 +50,9 @@ target_path输入：
 ccx_filename输入选择保持默认即可
 
 auto_run_on_restart选择输入：
+
 enable代表开启，重启COMFYUI自动运行，开启了Photoshop插件同步更新功能。（默认）
+
 disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件同步更新功能。
 
 enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photoshop插件自动同步更新（disable禁用同理）
