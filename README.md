@@ -47,9 +47,10 @@ target_path输入：
 ccx_filename输入选择保持默认即可
 
 auto_run_on_restart选择输入：
-enable代表开启，重启COMFYUI自动运行，开启了Photoshop插件同步更新功能。（默认）
 
-disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件同步更新功能。
+1. enable代表开启，重启COMFYUI自动运行，开启了Photoshop插件同步更新功能。（默认）
+
+2. disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件同步更新功能。
 
 
 输入完路径参数，运行后，控制台会显示运行信息，如下表示成功了。
