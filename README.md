@@ -14,7 +14,7 @@ Installing the CCXManag node:
 
 Method 1: Git Clone (Recommended)
 cd ComfyUI/custom_nodes
-git clone https://github.com/your-username/put-tools.git
+git clone https://github.com/WWWEN8/SDPPPautoupdate.git
 
 Method 2: Manual Download
 Download the ZIP file for this project
