@@ -66,6 +66,7 @@ disable选择禁用后，要运行节点一次，才能生效，重启COMFYUI控
 <img width="561" height="76" alt="7f3993e0-7934-4b50-ae73-15401ec38699" src="https://github.com/user-attachments/assets/a0e2e353-0995-4268-b9fb-652c1709f9ba" />
 
 注意：
+
 1. SDPPP插件自动更新助手1.0节点，target_path对应是“sd-ppp_PS文件路径”
 
 2.SDPPP插件自动更新助手2.0节点，target_path对应是“sd-ppp2_PS文件路径”
