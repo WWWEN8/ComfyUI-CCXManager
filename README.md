@@ -11,7 +11,7 @@ CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行。
 安装使用CCXManag节点前提：
 1. 已经安装Photoshop软件（版本大于24）
 2. 已经安装最新版的SD-PPP节点
-3. Photoshop安装目录找到Plug-ins，在Plug-ins文件夹里面新建两个新文件夹，分别命名为：sd-ppp_PS和sd-ppp2_PS。准备复制复制sd-ppp_PS和sd-ppp2_PS路径使用
+3. Photoshop安装目录找到Plug-ins，在Plug-ins文件夹里面新建两个新文件夹，分别命名为：sd-ppp_PS和sd-ppp2_PS。准备分别复制sd-ppp_PS和sd-ppp2_PS路径使用
 4. SD-PPP节点安装目录下找到static文件夹，准备复制static路径使用
 
 安装CCXManag节点：
