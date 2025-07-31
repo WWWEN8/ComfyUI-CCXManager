@@ -69,7 +69,7 @@ enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photosh
 
 到Photoshop软件查看插件是否安装成功
 
-注意：
+注意事项：
 1. SDPPP插件自动更新助手1.0节点，target_path对应是“sd-ppp_PS文件路径”
 
 2. SDPPP插件自动更新助手2.0节点，target_path对应是“sd-ppp2_PS文件路径”
