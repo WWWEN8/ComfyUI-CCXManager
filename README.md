@@ -8,6 +8,8 @@ CCXManag节点添加了可视化功能：节点运行后在COMFYUI控制台，�
 
 CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行。
 
+CCXManag节点支持云端和本地部署的COMFYUI
+
 安装CCXManag节点准备下面条件：
 1. 已经安装Photoshop软件（版本大于24）
 2. 已经安装最新版的SD-PPP节点
