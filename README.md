@@ -75,3 +75,7 @@ enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photosh
 2. SDPPP插件自动更新助手2.0节点，target_path对应是“sd-ppp2_PS文件路径”
 
 3. SDPPP插件自动更新助手1.0节点和SDPPP插件自动更新助手2.0节点，source_path对应都是“static文件路径'
+
+4. 若安装路径改变，重新在节点设置改变后的路径，运行节点后生效
+
+5. CCXManage节点有功能更新，导致失效，请按节点填写要求重新设置输入
