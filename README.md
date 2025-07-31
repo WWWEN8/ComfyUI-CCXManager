@@ -39,7 +39,7 @@ source_type选择输入：
 
 1. url：（推荐）网络下载，默认即可
 
-2. local_path ：本地.CCX文件安装，.CCX文件一般在SD-PPP安装目录下的static文件夹里面，复制.CCX路径即可，不推荐
+2. local_path ：本地.CCX文件安装，.CCX文件一般在SD-PPP安装目录下的static文件夹里面，复制.CCX路径在target_path框里面即可，不推荐
 
 source_path输入：
 
@@ -47,7 +47,7 @@ source_path输入：
 
 target_path输入：
 
-1.SDPPP插件更新助手1.0最新节点，输入：：sd-ppp_PS文件路径，如：
+1.SDPPP插件更新助手1.0最新节点，输入：sd-ppp_PS文件路径，如：
 
 <img width="700" height="285" alt="9408e409-d9f0-42da-a136-c4dd6da0e567" src="https://github.com/user-attachments/assets/3f478c7e-8d20-4f96-beab-9f4e9cf8e63d" />
 
