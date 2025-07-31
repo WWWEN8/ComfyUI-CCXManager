@@ -34,8 +34,7 @@ git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 
 CCXManag节点有两个节点：SDPPP插件更新助手1.0最新和SDPPP插件更新助手2.0最新
 
-<img width="917" height="725" alt="5c448fcb-affc-4678-8496-039e61a9452f" src="https://github.com/user-attachments/assets/d59d12ef-934c-4924-819b-116a3ba5593f" />
-
+<img width="798" height="536" alt="aca82b8f-3170-4c15-a949-db6e3f39c109" src="https://github.com/user-attachments/assets/02209b4d-ba3e-4d60-b598-26c60ba76797" />
 
 source_type选择输入：
 
@@ -65,7 +64,7 @@ disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件
 
 enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photoshop插件自动同步更新（disable禁用同理）
 
-<img width="1095" height="808" alt="bdf52edb-3a6e-4191-a96b-ffc74a5c9462" src="https://github.com/user-attachments/assets/dfe83b5a-2d1d-4c45-9ac5-88e0327a6b19" />
+<img width="1008" height="707" alt="8c9c9018-c033-4827-a063-33cbb718b2ff" src="https://github.com/user-attachments/assets/cafcc473-101b-4810-bb32-b6624cac8228" />
 
 运行节点后控制台，会显示运行信息如下（COMFYUI重启后也会看到控制台运行信息）：
 
