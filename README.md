@@ -12,7 +12,7 @@ CCXManag节点支持云端和本地部署的COMFYUI
 
 安装CCXManag节点准备下面条件：
 1. 已经安装Photoshop软件（版本大于24）
-2. 已经安装最新版的SD-PPP节点
+2. 已经安装最新版的SD-PPP节点.
 3. Photoshop安装目录找到Plug-ins，在Plug-ins文件夹里面新建两个新文件夹，分别命名为：sd-ppp_PS和sd-ppp2_PS。（之前有安装过SD-PPP插件的文件夹，请删除）准备分别复制sd-ppp_PS和sd-ppp2_PS两个路径，等待粘贴
 
 安装CCXManag节点：
