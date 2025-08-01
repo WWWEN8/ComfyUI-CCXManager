@@ -42,6 +42,12 @@ source_type选择输入：
 
 2. local_path ：本地.CCX文件安装，.CCX文件一般在SD-PPP安装目录下的static文件夹里面，复制.CCX路径在target_path框里面即可，不推荐
 
+例子：
+
+SDPPP插件更新助手1.0最新节点，target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp_PS.ccx”注意路径结尾是sd-ppp_PS.ccx
+
+SDPPP插件更新助手2.0最新节点，target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp2_PS.ccx”注意路径结尾是sd-ppp2_PS.ccx
+
 source_path输入：
 
 输入.CCX下载网站，保持默认下载的网站，不用修改
