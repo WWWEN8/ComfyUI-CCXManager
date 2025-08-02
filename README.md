@@ -48,17 +48,17 @@ source_type选择输入：
 
 例子：
 
-SDPPP插件更新助手1.0最新节点，target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp_PS.ccx”注意路径结尾是sd-ppp_PS.ccx
+SDPPP插件更新助手1.0最新节点：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp_PS.ccx”注意路径结尾是sd-ppp_PS.ccx
 
-SDPPP插件更新助手2.0最新节点，target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp2_PS.ccx”注意路径结尾是sd-ppp2_PS.ccx
+SDPPP插件更新助手2.0最新节点：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp2_PS.ccx”注意路径结尾是sd-ppp2_PS.ccx
 
 source_path输入：
 
 输入.CCX下载网站，保持默认下载的网站，不用修改
 
-1. SDPPP插件更新助手1.0最新 节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx
+1. SDPPP插件更新助手1.0最新，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx
  
-2. SDPPP插件更新助手3.0最新 节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx
+2. SDPPP插件更新助手2.0最新，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx
 
 target_path输入：
 
