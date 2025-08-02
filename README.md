@@ -2,13 +2,15 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 
 之前用过SD-PPP节点的小伙伴都感觉非常麻烦，SD-PPP节点升级了，另外Photoshop还要比较复杂去手动去安装插件，造成SD-PPP不能及时使用最新版的Photoshop插件的功能，带来不好体验。尤其SD-PPP节点更新频率非常高，因为SD-PPP节点开发人员，为了更好完善节点，社区和群里面体验者有反馈BUG或者建议功能，第一时间去努力修复BUG或更新功能，在此给SD-PPP节点开发人员大大点赞！！！
 
-CCXManag设置完运行一次，插件自动记忆你设置的信息，下次重启COMFYUI自动运行CCXManag节点，无论SD-PPP节点是否有升级，Photoshop插件照样同步更新。使用CCXManag节点，完全摆脱手动去Photoshop更新插件了。
+CCXManag设置完运行一次，插件自动记忆你设置的信息，下次重启COMFYUI自动运行CCXManag节点，检测到SD-PPP节点有更新时，自动运行节点进行hotoshop插更新。使用CCXManag节点，完全摆脱手动去Photoshop更新插件了。
 
 CCXManag节点添加了可视化功能：节点运行后在COMFYUI控制台，可以查到CCXManag节点运行的信息。
 
 CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行。
 
-CCXManag只本地部署的COMFYUI，不支持云端的COMFYUI。这是下一步开发计划。。。
+CCXManag节点带有检测功能，检测在SD-PPP节点有更新情况，重启COMFYUI才运行CCXManag节点进行更新插件。250801更新功能
+
+CCXManag只支持本地部署的COMFYUI，不支持云端的COMFYUI。这是下一步开发计划。。。
 
 安装CCXManag节点准备下面条件：
 1. 已经安装Photoshop软件（版本大于24）
@@ -34,7 +36,7 @@ git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 
 CCXManag节点有两个节点：SDPPP插件更新助手1.0最新和SDPPP插件更新助手2.0最新
 
-<img width="798" height="536" alt="aca82b8f-3170-4c15-a949-db6e3f39c109" src="https://github.com/user-attachments/assets/02209b4d-ba3e-4d60-b598-26c60ba76797" />
+<img width="712" height="589" alt="be374a11-0423-47e4-aa9b-219df867e8f4" src="https://github.com/user-attachments/assets/dcc7d4e1-d71a-452b-ba59-612c8a5ef340" />
 
 source_type选择输入：
 
@@ -52,6 +54,10 @@ source_path输入：
 
 输入.CCX下载网站，保持默认下载的网站，不用修改
 
+1. SDPPP插件更新助手1.0最新 节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx
+ 
+2. SDPPP插件更新助手3.0最新 节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx
+
 target_path输入：
 
 1.SDPPP插件更新助手1.0最新节点，输入：sd-ppp_PS文件路径，如：
@@ -62,6 +68,12 @@ target_path输入：
 
 <img width="745" height="234" alt="9eeecf46-a559-459f-bd41-dbde4710cee0" src="https://github.com/user-attachments/assets/0cb971ab-2548-457a-bf54-30ba40bf8930" />
 
+github_repo_url 输入：
+
+检测有最新更新github仓库更新，仓库网址输入。检测到SD-PPP节点一旦有更新情况下，激活重启COMFYUI运行CCXManag自动更新。没更新情况，重启不会运行CCXManag进行更新。保持默认，不要修改
+
+默认SD-PPP节点仓库：https://github.com/zombieyang/sd-ppp.git
+
 auto_run_on_restart选择输入：
 
 enable代表开启，重启COMFYUI自动运行，开启了Photoshop插件同步更新功能。（默认）
@@ -70,11 +82,11 @@ disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件
 
 enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photoshop插件自动同步更新（disable禁用同理）
 
-<img width="1008" height="707" alt="8c9c9018-c033-4827-a063-33cbb718b2ff" src="https://github.com/user-attachments/assets/cafcc473-101b-4810-bb32-b6624cac8228" />
+<img width="673" height="583" alt="21a79508-1014-4a2a-8aa8-2c14482e8717" src="https://github.com/user-attachments/assets/334be199-393b-4a03-95cc-32513dfd1020" />
 
 运行节点后控制台，会显示运行信息如下（COMFYUI重启后也会看到控制台运行信息）：
 
-<img width="1030" height="243" alt="1d9eeacc-8523-4dd4-aa72-ded64197df8b" src="https://github.com/user-attachments/assets/a83df380-b835-4f1c-8eb1-298a6b5b93b5" />
+<img width="967" height="254" alt="e74fa9df-225a-4342-9111-ce818a7a802a" src="https://github.com/user-attachments/assets/81564e23-7cd8-4c7b-a802-295a1e9d157f" />
 
 到Photoshop软件查看插件是否安装成功
 
