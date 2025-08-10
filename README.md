@@ -6,7 +6,7 @@ CCXManag设置完运行一次，插件自动记忆你设置的信息，每次重
 
 CCXManag节点添加了可视化功能：节点运行后在COMFYUI控制台，可以查到CCXManag节点运行的信息。
 
-CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行。
+CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行
 
 CCXManag节点支持CCX网站下载进行更新（250731新功能）
 
