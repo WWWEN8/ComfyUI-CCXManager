@@ -12,7 +12,7 @@ CCXManag节点支持网站下载CCX进行更新（250731新功能）
 
 CCXManag节点带有检测功能，检测在SD-PPP节点有更新情况，重启COMFYUI才运行CCXManag节点进行更新插件.（250801新功能）
 
-CCXManag只支持本地部署的COMFYUI，不支持云端的COMFYUI。（云端支持这是下一步开发计划。。。。）
+CCXManag只支持本地部署的COMFYUI，不支持云端的COMFYUI。（云端支持这是下一步开发计划。。。）
 
 安装CCXManag节点准备以下条件：
 1. 已经安装Photoshop软件（版本大于24）
