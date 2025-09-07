@@ -82,7 +82,7 @@ enable代表开启，重启ComfyUI自动运行，开启了Photoshop插件同步�
 
 disable代表禁用，重启ComfyUI节点不会运行，关闭了Photoshop插件同步更新功能。
 
-enable开启后，要运行一次，才能生效，下次重启COMFYUI，Photoshop插件自动同步更新（disable禁用同理）
+enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photoshop插件自动同步更新（disable禁用同理）
 
 <img width="673" height="583" alt="21a79508-1014-4a2a-8aa8-2c14482e8717" src="https://github.com/user-attachments/assets/334be199-393b-4a03-95cc-32513dfd1020" />
 
