@@ -78,7 +78,7 @@ github_repo_url 输入：
 
 auto_run_on_restart选择输入：
 
-enable代表开启，重启COMFYUI自动运行，开启了Photoshop插件同步更新功能。（默认）
+enable代表开启，重启ComfyUI自动运行，开启了Photoshop插件同步更新功能。（默认）
 
 disable代表禁用，重启COMFYUI节点不会运行，关闭了Photoshop插件同步更新功能。
 
