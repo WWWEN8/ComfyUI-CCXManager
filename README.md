@@ -10,7 +10,7 @@ CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行
 
 CCXManag节点支持网站下载CCX进行更新（250731新功能）
 
-CCXManag节点带有检测功能，检测在SD-PPP节点有更新情况，重启ComfyUI才运行CCXManag节点进行更新插件.（250801新功能）
+CCXManag节点带有检测功能，检测在SD-PPP节点有更新情况，重启ComfyUI才运行CCXManag节点进行更新插件（250801新功能）
 
 CCXManag只支持本地部署的ComfyUI，不支持云端的ComfyUI。（云端支持这是下一步开发计划）
 
