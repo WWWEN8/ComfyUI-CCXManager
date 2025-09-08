@@ -72,7 +72,7 @@ target_path输入：
 
 github_repo_url 输入：
 
-检测有最新更新github仓库更新，仓库网址输入。检测到SD-PPP节点一旦有更新情况下，激活重启ComfyUI运行CCXManag自动更新。没更新情况，重启不会运行CCXManag进行更新。保持默认，不要修改
+检测有最新更新github仓库更新，仓库网址输入。检测到SD-PPP侧节点一旦有更新情况下，激活重启ComfyUI运行CCXManag自动更新。没更新情况，重启不会运行CCXManag进行更新。保持默认，不要修改
 
 默认SD-PPP节点仓库：https://github.com/zombieyang/sd-ppp.git
 
