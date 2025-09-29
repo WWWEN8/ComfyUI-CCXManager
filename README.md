@@ -24,26 +24,31 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 2. ComfyUI侧已安装最新版的SD-PPP节点
 3. 在Photoshop插件目录下创建两个文件夹：`sd-ppp_PS`和`sd-ppp2_PS`
 
-安装CCXManag节点：
+## 🛠️ 安装条件
 
-方法一：Git Clone（推荐）
+1. 已安装Photoshop软件（版本≥24）
+2. ComfyUI侧已安装最新版的SD-PPP节点
+3. 在Photoshop插件目录下创建两个文件夹：`sd-ppp_PS`和`sd-ppp2_PS`
 
+## 📦 安装方法
+
+### 方法一：通过ComfyUI Manager安装
+在ComfyUI Manager中搜索"ComfyUI-CCXManager"并安装
+
+### 方法二：Git Clone（推荐）
+```bash
 cd ComfyUI/custom_nodes
-
 git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
+```
 
-方法二：手动下载
-下载本项目的ZIP文件
-解压到 ComfyUI/custom_nodes/
+### 方法三：手动安装
+1. 下载本项目的ZIP文件
+2. 解压到`ComfyUI/custom_nodes/`目录下
+3. 重启ComfyUI
 
-确保文件夹结构正确
-
-方法三：ComfyUI Manager
-如果已收录到ComfyUI Manager，可直接搜索"CCXManag"安装
+## 🚀 使用说明
 
 CCXManag节点有两个节点：SDPPP插件更新助手1.0最新和SDPPP插件更新助手2.0最新
-
-<img width="712" height="589" alt="be374a11-0423-47e4-aa9b-219df867e8f4" src="https://github.com/user-attachments/assets/dcc7d4e1-d71a-452b-ba59-612c8a5ef340" />
 
 source_type选择输入：
 
