@@ -1,23 +1,28 @@
+# ComfyUI-CCXManager
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/dcc7d4e1-d71a-452b-ba59-612c8a5ef340" alt="CCXManager节点界面" width="700">
+  <br>
+  <p><strong>SD-PPP插件更新助手 - 自动管理Photoshop侧插件更新</strong></p>
+</div>
+
 CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 
 之前用过SD-PPP节点的小伙伴都感觉非常困扰，SD-PPP节点ComfyUI侧升级了，另外Photoshop侧还要比较复杂去手动去安装插件，造成SD-PPP不能及时使用最新版的Photoshop侧插件的功能，带来不好体验。尤其SD-PPP节点更新频率非常高，因为SD-PPP节点开发人员，为了更好完善节点，社区和群里面体验者有反馈BUG或者建议功能，第一时间去努力修复BUG或更新功能，在此给SD-PPP节点开发人员大大点赞！！！
 
-CCXManag节点设置完运行一次，节点自动记忆你设置的信息，每次重启ComfyUI进行SD-PPP节点检测，SD-PPP有更新情况，自动运行节点进行photoshop侧插件更新。使用CCXManag节点，完全摆脱手动去Photoshop侧更新插件了。
+- ✅ 自动记忆设置信息，重启ComfyUI自动检测SD-PPP更新
+- ✅ 支持SD-PPP节点1.0版本和2.0版本同时运行
+- ✅ 支持网站下载CCX进行更新
+- ✅ 具备智能检测功能，仅在SD-PPP有更新时运行
+- ✅ 提供可视化运行信息，在ComfyUI控制台显示运行状态
 
-CCXManag节点添加了可视化功能：节点运行后在ComfyUI控制台，可以查到CCXManag节点运行的信息。
+> **注意：** 只支持本地部署的ComfyUI，不支持云端ComfyUI
 
-CCXManag节点支持SD-PPP节点1.0版本和2.0版本同时运行
+## 🛠️ 安装条件
 
-CCXManag节点支持网站下载CCX进行更新（250731新功能）
-
-CCXManag节点带有检测功能，检测在SD-PPP节点有更新情况，重启ComfyUI才运行CCXManag节点进行更新插件（250801新功能）
-
-CCXManag只支持本地部署的ComfyUI，不支持云端的ComfyUI.（云端支持这是下一步开发计划）
-
-安装CCXManag节点准备以下条件：
-1. 已经安装Photoshop软件（版本大于24）
-2. COMFYUI侧已经安装最新版的SD-PPP节点
-3. Photoshop侧安装目录找到Plug-ins，在Plug-ins文件夹里面新建两个新文件夹，分别命名为：sd-ppp_PS和sd-ppp2_PS。（之前有安装过SD-PPP插件的文件夹，请删除）准备分别复制sd-ppp_PS和sd-ppp2_PS两个路径，等待粘贴
+1. 已安装Photoshop软件（版本≥24）
+2. ComfyUI侧已安装最新版的SD-PPP节点
+3. 在Photoshop插件目录下创建两个文件夹：`sd-ppp_PS`和`sd-ppp2_PS`
 
 安装CCXManag节点：
 
@@ -105,3 +110,12 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 
 6. 安装路径谨慎选择，更新时会把路径的文件里面内容清空。不要随便输入安装路径进行操作，避免误删重要文件
 
+## 👨‍💻 开发者信息
+
+- 作者：CHAOCHAO
+- GitHub：[https://github.com/WWWEN8/ComfyUI-CCXManager](https://github.com/WWWEN8/ComfyUI-CCXManager)
+- 问题反馈：请在GitHub仓库提交Issue
+
+## 📄 许可证
+
+此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
