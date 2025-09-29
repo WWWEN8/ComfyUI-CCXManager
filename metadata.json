@@ -1,0 +1,20 @@
+{
+  "title": "ComfyUI-CCXManager",
+  "name": "ComfyUI-CCXManager",
+  "description": "专门为SD-PPP插件开发的辅助节点，自动管理和更新Photoshop侧插件，支持版本检测和自动更新功能。",
+  "author": "您的名字",
+  "version": "1.0.0",
+  "install_type": "git",
+  "repo_url": "https://github.com/WWWEN8/ComfyUI-CCXManager.git",
+  "category": "工具",
+  "tags": ["SD-PPP", "Photoshop", "插件更新", "CCX", "自动更新"],
+  "node_classes": ["CCXManager", "CCXManagerCopy"],
+  "platforms": ["windows", "macos", "linux"],
+  "requirements": [
+    "requests",
+    "zipfile"
+  ],
+  "compatibility": {
+    "comfyui": ">=v1.0.0"
+  }
+}
