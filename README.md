@@ -21,7 +21,7 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 ## 🛠️ 安装条件
 
 1. 已安装Photoshop软件（版本≥24）
-2. ComfyUI侧已安装最新版的SD-PPP节点
+2. ComfyUI侧已安装最新版的SD-PPP节点。
 3. 在Photoshop插件目录下创建两个文件夹：`sd-ppp_PS`和`sd-ppp2_PS`
 
 ## 🛠️ 安装条件
