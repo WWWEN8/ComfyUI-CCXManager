@@ -50,7 +50,7 @@ git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 
 CCXManag节点有两个节点：SDPPP插件更新助手1.0最新和SDPPP插件更新助手2.0最新
 
-source_type选择输入：
+### source_type选择输入：
 
 1. url：（推荐）网络下载，默认即可
 
@@ -62,7 +62,7 @@ SDPPP插件更新助手1.0最新节点：target_path框填写对应是“H:\Comf
 
 SDPPP插件更新助手2.0最新节点：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp2_PS.ccx”注意路径结尾是sd-ppp2_PS.ccx
 
-source_path输入：
+### source_path输入：
 
 输入.CCX下载网站，保持默认下载的网站，不用修改
 
@@ -70,7 +70,7 @@ source_path输入：
  
 2. SDPPP插件更新助手2.0最新，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx
 
-target_path输入：
+### target_path输入：
 
 1.SDPPP插件更新助手1.0最新节点，输入：sd-ppp_PS文件路径，如：
 
@@ -80,13 +80,13 @@ target_path输入：
 
 <img width="745" height="234" alt="9eeecf46-a559-459f-bd41-dbde4710cee0" src="https://github.com/user-attachments/assets/0cb971ab-2548-457a-bf54-30ba40bf8930" />
 
-github_repo_url 输入：
+### github_repo_url 输入：
 
 检测有最新更新github仓库更新，仓库网址输入。检测到SD-PPP侧节点一旦有更新情况下，激活重启ComfyUI运行CCXManag自动更新。没更新情况，重启不会运行CCXManag进行更新。保持默认，不要修改
 
 默认SD-PPP节点仓库：https://github.com/zombieyang/sd-ppp.git
 
-auto_run_on_restart选择输入：
+### auto_run_on_restart选择输入：
 
 enable代表开启，重启ComfyUI自动运行，开启了Photoshop插件同步更新功能。（默认）
 
@@ -102,7 +102,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 
 到Photoshop软件查看插件是否安装成功
 
-注意事项：
+### 注意事项：
 1. SDPPP插件更新助手1.0最新节点，target_path对应是“sd-ppp_PS文件路径”
 
 2. SDPPP插件更新助手2.0最新节点，target_path对应是“sd-ppp2_PS文件路径”
