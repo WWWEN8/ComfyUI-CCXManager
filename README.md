@@ -16,7 +16,7 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 - ✅ 具备智能检测功能，仅在SD-PPP有更新时运行
 - ✅ 提供可视化运行信息，在ComfyUI控制台显示运行状态
 
-> **注意：** 只支持本地部署的ComfyUI，不支持云端ComfyUI
+> **注意：** 只支持本地部署的ComfyUI，不支持云端ComfyUI.
 
 ## 🛠️ 安装条件
 
@@ -124,4 +124,5 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
