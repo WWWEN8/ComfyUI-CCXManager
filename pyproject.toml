@@ -8,9 +8,10 @@ dependencies = ["requests>=2.25.0"]
 
 [project.urls]
 Repository = "https://github.com/WWWEN8/ComfyUI-CCXManager"
+#  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
 PublisherId = "WWWEN8"
 DisplayName = "ComfyUI-CCXManager"
-
 Icon = ""
+
