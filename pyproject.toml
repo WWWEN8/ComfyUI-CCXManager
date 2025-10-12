@@ -12,4 +12,5 @@ Repository = "https://github.com/WWWEN8/ComfyUI-CCXManager"
 [tool.comfy]
 PublisherId = "WWWEN8"
 DisplayName = "ComfyUI-CCXManager"
+
 Icon = ""
