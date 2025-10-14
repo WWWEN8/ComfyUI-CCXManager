@@ -78,7 +78,7 @@ Detects the latest updates in GitHub repositories, enter the repository URL. Onc
 
 Default SD-PPP node repository: https://github.com/zombieyang/sd-ppp.git
 
-auto_run_on_restart select input:
+### auto_run_on_restart select input:
 enable means to enable, automatically runs on ComfyUI restart, enabling the Photoshop plugin synchronization update feature. (Default)
 
 disable means to disable, does not run on ComfyUI restart, disabling the Photoshop plugin synchronization update feature.
@@ -93,7 +93,7 @@ After running the node, the console will display the running information as foll
 
 Check in Photoshop software whether the plugin is installed successfully
 
-Notes:
+### Notes:
 1.SDPPP plugin update assistant 1.0 latest node, target_path corresponds to "sd-ppp_PS file path"
 
 2.SDPPP plugin update assistant 2.0 latest node, target_path corresponds to "sd-ppp2_PS file path"
@@ -106,12 +106,13 @@ Notes:
 
 6.Choose the installation path carefully, as updates will clear the contents of files in the path. Do not enter installation paths randomly for operations to avoid accidentally deleting important files
 
-👨‍💻 Developer Information
+👨‍💻 ### Developer Information
 Author: WWWEN8
 GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
