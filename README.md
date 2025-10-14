@@ -67,5 +67,46 @@ Input the .CCX download website, keep the default download website, no need to m
 ### target_path input:
 
 1. SDPPP Plugin Update Assistant 1.0 Latest node, input: sd-ppp_PS file path, such as:
+   <img width="700" height="285" alt="1" src="https://github.com/user-attachments/assets/47077615-98b7-4e40-b40a-009653a4101d" />
 
-<img width="700" height="285" alt="9408e409-d9f0-42da-a136-c4dd6da0e567" src="https://github.com/user-attachments/assets/3f478c7e-8d20-4f96-beab-9f4e9cf8e63d
+2.SDPPP plugin update assistant 2.0 latest node, input: sd-ppp2_PS file path, as follows:
+<img width="745" height="234" alt="2" src="https://github.com/user-attachments/assets/a88f9c69-2b0b-420e-995c-c2e1c3efb3f8" />
+
+github_repo_url input:
+Detects the latest updates in GitHub repositories, enter the repository URL. Once an update is detected in the SD-PPP side node, activate and restart ComfyUI to run CCXManager for automatic updates. If there is no update, restarting will not run CCXManager for updates. Keep default, do not modify
+
+Default SD-PPP node repository: https://github.com/zombieyang/sd-ppp.git
+
+auto_run_on_restart select input:
+enable means to enable, automatically runs on ComfyUI restart, enabling the Photoshop plugin synchronization update feature. (Default)
+
+disable means to disable, does not run on ComfyUI restart, disabling the Photoshop plugin synchronization update feature.
+
+After enabling, you need to run it once for it to take effect. The next time ComfyUI restarts, the Photoshop plugin will automatically sync updates (same for disable)
+
+
+After running the node, the console will display the running information as follows (you can also see the console running information after ComfyUI restart):
+
+
+
+Check in Photoshop software whether the plugin is installed successfully
+
+Notes:
+SDPPP plugin update assistant 1.0 latest node, target_path corresponds to "sd-ppp_PS file path"
+
+SDPPP plugin update assistant 2.0 latest node, target_path corresponds to "sd-ppp2_PS file path"
+
+If the installation path changes, re-change the path in the node settings, it will take effect after running the node
+
+If the CCXManage node has functional updates that cause it to fail, please reconfigure the inputs according to the node's requirements
+
+To check for SD-PPP node updates, you need to enable a proxy network to use it; without a proxy network, you can try to use local_path local CCX file to set as an alternative
+
+Choose the installation path carefully, as updates will clear the contents of files in the path. Do not enter installation paths randomly for operations to avoid accidentally deleting important files
+
+👨‍💻 Developer Information
+Author: WWWEN8
+GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
+Issue feedback: Please submit an Issue in the GitHub repository
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details
