@@ -82,24 +82,27 @@ enable means to enable, automatically runs on ComfyUI restart, enabling the Phot
 disable means to disable, does not run on ComfyUI restart, disabling the Photoshop plugin synchronization update feature.
 
 After enabling, you need to run it once for it to take effect. The next time ComfyUI restarts, the Photoshop plugin will automatically sync updates (same for disable)
+
 <img width="673" height="583" alt="3" src="https://github.com/user-attachments/assets/93857eaf-5f14-42ca-a028-a1ae76d85223" />
+
 After running the node, the console will display the running information as follows (you can also see the console running information after ComfyUI restart):
+
 <img width="967" height="254" alt="4" src="https://github.com/user-attachments/assets/eb1565c1-09d1-4ac7-969b-f6c3fe3a0df7" />
 
 Check in Photoshop software whether the plugin is installed successfully
 
 Notes:
-SDPPP plugin update assistant 1.0 latest node, target_path corresponds to "sd-ppp_PS file path"
+1.SDPPP plugin update assistant 1.0 latest node, target_path corresponds to "sd-ppp_PS file path"
 
-SDPPP plugin update assistant 2.0 latest node, target_path corresponds to "sd-ppp2_PS file path"
+2.SDPPP plugin update assistant 2.0 latest node, target_path corresponds to "sd-ppp2_PS file path"
 
-If the installation path changes, re-change the path in the node settings, it will take effect after running the node
+3.If the installation path changes, re-change the path in the node settings, it will take effect after running the node
 
-If the CCXManage node has functional updates that cause it to fail, please reconfigure the inputs according to the node's requirements
+4.If the CCXManage node has functional updates that cause it to fail, please reconfigure the inputs according to the node's requirements
 
-To check for SD-PPP node updates, you need to enable a proxy network to use it; without a proxy network, you can try to use local_path local CCX file to set as an alternative
+5.To check for SD-PPP node updates, you need to enable a proxy network to use it; without a proxy network, you can try to use local_path local CCX file to set as an alternative
 
-Choose the installation path carefully, as updates will clear the contents of files in the path. Do not enter installation paths randomly for operations to avoid accidentally deleting important files
+6.Choose the installation path carefully, as updates will clear the contents of files in the path. Do not enter installation paths randomly for operations to avoid accidentally deleting important files
 
 👨‍💻 Developer Information
 Author: WWWEN8
@@ -107,4 +110,5 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
