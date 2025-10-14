@@ -68,7 +68,6 @@ Input the .CCX download website, keep the default download website, no need to m
 
 1. SDPPP Plugin Update Assistant 1.0 Latest node, input: sd-ppp_PS file path, such as:
    <img width="700" height="285" alt="1" src="https://github.com/user-attachments/assets/47077615-98b7-4e40-b40a-009653a4101d" />
-
 2.SDPPP plugin update assistant 2.0 latest node, input: sd-ppp2_PS file path, as follows:
 <img width="745" height="234" alt="2" src="https://github.com/user-attachments/assets/a88f9c69-2b0b-420e-995c-c2e1c3efb3f8" />
 
@@ -83,11 +82,9 @@ enable means to enable, automatically runs on ComfyUI restart, enabling the Phot
 disable means to disable, does not run on ComfyUI restart, disabling the Photoshop plugin synchronization update feature.
 
 After enabling, you need to run it once for it to take effect. The next time ComfyUI restarts, the Photoshop plugin will automatically sync updates (same for disable)
-
-
+<img width="673" height="583" alt="3" src="https://github.com/user-attachments/assets/93857eaf-5f14-42ca-a028-a1ae76d85223" />
 After running the node, the console will display the running information as follows (you can also see the console running information after ComfyUI restart):
-
-
+<img width="967" height="254" alt="4" src="https://github.com/user-attachments/assets/eb1565c1-09d1-4ac7-969b-f6c3fe3a0df7" />
 
 Check in Photoshop software whether the plugin is installed successfully
 
@@ -110,3 +107,4 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
