@@ -1,5 +1,5 @@
 # ComfyUI-CCXManager
-
+## <a href="./README.md">English</a> >> <a href="./README_ZH.md">中文版</a>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/dcc7d4e1-d71a-452b-ba59-612c8a5ef340" alt="CCXManager node interface" width="700">
   <br>
@@ -112,6 +112,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
