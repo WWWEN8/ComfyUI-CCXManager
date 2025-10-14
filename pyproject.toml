@@ -1,9 +1,9 @@
 [project]
-name = "ComfyUI-CCXManager"
+name = "comfyui-ccxmanager"
 description = "Set to run once, and the SD-PPP Photoshop plugin will be automatically updated when there are updates later, completely eliminating the need for manual updates on the Photoshop side."
 
 version = "1.0.0"
-license = { file = "LICENSE.txt" }
+license = { file = "LICENSE" }
 dependencies = ["requests>=2.25.0"]
 
 [project.urls]
@@ -12,6 +12,7 @@ Repository = "https://github.com/WWWEN8/ComfyUI-CCXManager"
 
 [tool.comfy]
 PublisherId = "WWWEN8"
-DisplayName = "ComfyUI-CCXManager"
+DisplayName = "comfyui-ccxmanager"
 Icon = ""
+
 
