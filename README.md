@@ -67,7 +67,7 @@ Input the .CCX download website, keep the default download website, no need to m
 ### target_path input:
 
 1. SDPPP Plugin Update Assistant 1.0 Latest node, input: sd-ppp_PS file path, such as:
-   <img width="700" height="285" alt="1" src="https://github.com/user-attachments/assets/47077615-98b7-4e40-b40a-009653a4101d" />
+<img width="700" height="285" alt="1" src="https://github.com/user-attachments/assets/47077615-98b7-4e40-b40a-009653a4101d" />
    
 2.SDPPP plugin update assistant 2.0 latest node, input: sd-ppp2_PS file path, as follows:
 
@@ -112,6 +112,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
