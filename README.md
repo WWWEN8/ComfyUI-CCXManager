@@ -106,12 +106,13 @@ Check in Photoshop software whether the plugin is installed successfully
 
 6.Choose the installation path carefully, as updates will clear the contents of files in the path. Do not enter installation paths randomly for operations to avoid accidentally deleting important files
 
-👨‍💻 ### Developer Information
+### 👨‍💻 Developer Information
 Author: WWWEN8
 GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
