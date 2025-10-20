@@ -43,7 +43,10 @@ git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 
 ## 🚀 使用说明
 
-CCXManag节点有两个节点：SDPPP插件更新助手1.0最新和SDPPP插件更新助手2.0最新
+CCXManag节点有三个节点：
+Photoshop side automatic update SDPPP2.0
+Photoshop side automatic update SDPPp1.0
+Comfyui side automatic update SDPPP
 
 ### source_type选择输入：
 
@@ -53,25 +56,25 @@ CCXManag节点有两个节点：SDPPP插件更新助手1.0最新和SDPPP插件�
 
 例子：
 
-SDPPP插件更新助手1.0最新节点：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp_PS.ccx”注意路径结尾是sd-ppp_PS.ccx
+Photoshop side automatic update SDPPp1.0：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp_PS.ccx”注意路径结尾是sd-ppp_PS.ccx
 
-SDPPP插件更新助手2.0最新节点：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp2_PS.ccx”注意路径结尾是sd-ppp2_PS.ccx
+Photoshop side automatic update SDPPp2.0：target_path框填写对应是“H:\ComfyUI\custom_nodes\sd-ppp\static\sd-ppp2_PS.ccx”注意路径结尾是sd-ppp2_PS.ccx
 
 ### source_path输入：
 
 输入.CCX下载网站，保持默认下载的网站，不用修改
 
-1. SDPPP插件更新助手1.0最新，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx
+1. Photoshop side automatic update SDPPp1.0，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx
  
-2. SDPPP插件更新助手2.0最新，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx
+2. Photoshop side automatic update SDPPp2.0，节点默认网站：https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx
 
 ### target_path输入：
 
-1.SDPPP插件更新助手1.0最新节点，输入：sd-ppp_PS文件路径，如：
+1.Photoshop side automatic update SDPPp1.0，输入：sd-ppp_PS文件路径，如：
 
 <img width="700" height="285" alt="9408e409-d9f0-42da-a136-c4dd6da0e567" src="https://github.com/user-attachments/assets/3f478c7e-8d20-4f96-beab-9f4e9cf8e63d" />
 
-2.SDPPP插件更新助手2.0最新节点，输入：sd-ppp2_PS文件路径，如：
+2.Photoshop side automatic update SDPPp2.0，输入：sd-ppp2_PS文件路径，如：
 
 <img width="745" height="234" alt="9eeecf46-a559-459f-bd41-dbde4710cee0" src="https://github.com/user-attachments/assets/0cb971ab-2548-457a-bf54-30ba40bf8930" />
 
@@ -119,6 +122,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
