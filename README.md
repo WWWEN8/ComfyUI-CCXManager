@@ -1,8 +1,7 @@
 # ComfyUI-CCXManager
 ## <a href="./README.md">English</a> >> <a href="./README_ZH.md">中文版</a>
 <div align="center">
-<img width="1474" height="980" alt="a15fa05b-0e1a-41cc-ae6d-3a8466158368" src="https://github.com/user-attachments/assets/ad93f717-7601-4bc3-b7c6-2be3a010b3cd" />
-
+<img width="1356" height="985" alt="EN-2" src="https://github.com/user-attachments/assets/57d62a2f-55dd-4201-83d8-a177a9e5020d" />
   <br>
   <p><strong>SD-PPP Plugin Update Assistant - Automatically manages Photoshop-side plugin updates</strong></p>
 </div>
@@ -115,6 +114,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
