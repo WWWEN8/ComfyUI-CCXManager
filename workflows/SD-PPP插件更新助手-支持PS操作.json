@@ -1,0 +1,640 @@
+{
+  "id": "45d3953d-3dbc-4cb5-b90b-47509d264b28",
+  "revision": 0,
+  "last_node_id": 16,
+  "last_link_id": 8,
+  "nodes": [
+    {
+      "id": 8,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1589.092599383386,
+        -1633.9088411137418
+      ],
+      "size": [
+        210,
+        106.58309936523438
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "#2.0安装状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "#2.0安装状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 2,
+      "type": "CCXManagerCopy",
+      "pos": [
+        1285.3460713953166,
+        -1839.230501885342
+      ],
+      "size": [
+        278.8238220214844,
+        154
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "target_path",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "运行状态",
+          "type": "STRING",
+          "links": [
+            5
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "8cc997cef80defe25c05fab936d6462b0c181f54",
+        "Node name for S&R": "CCXManagerCopy",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "url",
+        "https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx",
+        "",
+        "https://github.com/zombieyang/sd-ppp.git",
+        "enable"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1590.2785566927034,
+        -1827.9118672937527
+      ],
+      "size": [
+        210,
+        127.05286407470703
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "#1.0安装状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "#1.0安装状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 10,
+      "type": "Text Multiline",
+      "pos": [
+        2305.897435950739,
+        -1764.7002606734645
+      ],
+      "size": [
+        375.2235107421875,
+        535.1608276367188
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "#3.使用说明",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "#3.使用说明"
+      },
+      "widgets_values": [
+        "#Node Description:\nSet to run once, and SD-PPP will automatically update for you when there are new updates later, completely freeing you from manually updating plugins and nodes.\n\n#How to Use\n1. In the Photoshop installation directory, find the Plug-ins folder, and create two new folders inside it, naming them: sd-ppp_PS and sd-ppp2_PS respectively. (If you have previously installed the SD-PPP plugin folder, please delete it) Prepare to copy the paths for sd-ppp_PS and sd-ppp2_PS respectively.\n\n2. For the latest node of SDPPP Plugin Update Assistant 1.0, the sd-PPP1.0 installation path corresponds to the \"sd-ppp_PS file path\".\n\nFor the latest node of SDPPP Plugin Update Assistant 2.0, the sd-PPP2.0 installation path corresponds to the \"sd-ppp2_PS file path\".\n\n3. Click to run.\n\n4. Check the boxes for \"Comfyui side auto-update SDPPP\" and \"value\", restart Comfyui to automatically detect node update status, and automatically update when updates are available\n\n5. Check the console for successful operation information.\n\nFor details, please read: https://github.com/WWWEN8/ComfyUI-CCXManager"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "Text Multiline",
+      "pos": [
+        1909.1191368230707,
+        -1777.4997668473652
+      ],
+      "size": [
+        354.5525817871094,
+        384.10284423828125
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "#3.使用说明",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "#3.使用说明"
+      },
+      "widgets_values": [
+        "#节点说明：\n设置运行一次，后面SD-PPP有更新情况，自动帮你更新，完全摆脱手动去更新插件和节点了。\n\n#使用方法\n1.Photoshop侧安装目录找到Plug-ins，在Plug-ins文件夹里面新建两个新文件夹，分别命名为：sd-ppp_PS和sd-ppp2_PS。（之前有安装过SD-PPP插件的文件夹，请删除）准备分别复制sd-ppp_PS和sd-ppp2_PS两个路径\n\n2.SDPPP插件更新助手1.0最新节点，sd-PPP1.0安装路径输入对应是“sd-ppp_PS文件路径”\n\nSDPPP插件更新助手2.0最新节点，sd-PPP2.0安装路径对应是“sd-ppp2_PS文件路径”\n\n3.点击运行\n\n4.“Comfyui侧自动更新SDPPP”和“value”开关打勾，重启Comfyui自动检测节点更新情况，有更新自动更新\n\n5.查看控制台有没成功运行信息。\n\n详情请阅读：https://github.com/WWWEN8/ComfyUI-CCXManager"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "PrimitiveNode",
+      "pos": [
+        743.9181110157513,
+        -1825.1422188694453
+      ],
+      "size": [
+        431.9424133300781,
+        109.77384948730469
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "links": [
+            1
+          ]
+        }
+      ],
+      "title": "2.sd-PPP1.0安装路径（sd-ppp_PS file path）",
+      "properties": {
+        "Run widget replace on values": false,
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "2.sd-PPP1.0安装路径（sd-ppp_PS file path）"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 6,
+      "type": "PrimitiveNode",
+      "pos": [
+        747.2621661915324,
+        -1659.8405831272578
+      ],
+      "size": [
+        430.3104553222656,
+        66.52769470214844
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "links": [
+            4
+          ]
+        }
+      ],
+      "title": "1.sd-PPP2.0安装路径（sd-ppp2_PS file path）",
+      "properties": {
+        "Run widget replace on values": false,
+        "sdppp_widgetable_title": "1.sd-PPP2.0安装路径（sd-ppp2_PS file path）",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 16,
+      "type": "Text Multiline",
+      "pos": [
+        753.6575568218283,
+        -1536.3469653550706
+      ],
+      "size": [
+        411.5644082214137,
+        138.88270521589857
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": ".使用说明",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": ".使用说明"
+      },
+      "widgets_values": [
+        "Only modify the sd-PPP1.0 installation path and the sd-PPP2.0 installation path, do not modify other parameters.\n只修改sd-PPP1.0安装路径和sd-PPP2.0安装路径，其他参数不用修改。"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "PrimitiveNode",
+      "pos": [
+        1288.1979499132983,
+        -2206.5894889986726
+      ],
+      "size": [
+        479.4712890625,
+        60
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "auto_update"
+          },
+          "links": [
+            8
+          ]
+        }
+      ],
+      "title": "1-1.Comfyui侧自动更新开关（ComfyUI side automatic update switch）",
+      "properties": {
+        "Run widget replace on values": false,
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "1-1.Comfyui侧自动更新开关（ComfyUI side automatic update switch）"
+      },
+      "widgets_values": [
+        true
+      ]
+    },
+    {
+      "id": 13,
+      "type": "CCXRepoUpdaterNode",
+      "pos": [
+        1266.5724999876304,
+        -2104.872368016384
+      ],
+      "size": [
+        500.15118211286654,
+        141.66347767943307
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "auto_update",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "auto_update"
+          },
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "title": "Comfyui侧自动更新SDPPP(Comfyui side automatic update SDPPP)",
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "a33fc3ae580944a500443b1d0dba963d1b0e49c9",
+        "Node name for S&R": "CCXRepoUpdaterNode",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "https://github.com/zombieyang/sd-ppp.git",
+        true,
+        false
+      ]
+    },
+    {
+      "id": 14,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1859.401385213154,
+        -2179.082695299424
+      ],
+      "size": [
+        250.2825149196815,
+        189.08892575839218
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "#Comfyui侧自动更新状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "#Comfyui侧自动更新状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 1,
+      "type": "CCXManager",
+      "pos": [
+        1280.993170854034,
+        -1630.6421222103595
+      ],
+      "size": [
+        278.8238220214844,
+        154
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "target_path",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "运行状态",
+          "type": "STRING",
+          "links": [
+            6
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "8cc997cef80defe25c05fab936d6462b0c181f54",
+        "Node name for S&R": "CCXManager",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "url",
+        "https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx",
+        "",
+        "https://github.com/zombieyang/sd-ppp.git",
+        "enable"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        759.563898682212,
+        -2190.5081402683536
+      ],
+      "size": [
+        357.05096435546875,
+        183.21641540527344
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "可选连接",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "1.选择",
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "1.选择"
+      }
+    }
+  ],
+  "links": [
+    [
+      1,
+      3,
+      0,
+      2,
+      0,
+      "STRING"
+    ],
+    [
+      4,
+      6,
+      0,
+      1,
+      0,
+      "STRING"
+    ],
+    [
+      5,
+      2,
+      0,
+      7,
+      0,
+      "STRING"
+    ],
+    [
+      6,
+      1,
+      0,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      7,
+      13,
+      0,
+      14,
+      0,
+      "STRING"
+    ],
+    [
+      8,
+      15,
+      0,
+      13,
+      0,
+      "BOOLEAN"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "只需要修改这里（Only modify here）",
+      "bounding": [
+        733.9181110157513,
+        -1912.8305018853418,
+        1084.9618438087095,
+        556.6756355081168
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Comfyui侧自动更新SDPPP（ComfyUI side automatic update switch）",
+      "bounding": [
+        1215.7996772010483,
+        -2288.226105704816,
+        1068.1738121682622,
+        340.6162802855372
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "中文使用说明",
+      "bounding": [
+        1899.1191368230707,
+        -1851.0997668473651,
+        374.5525817871096,
+        467.7028442382813
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "English Instructions",
+      "bounding": [
+        2295.897435950739,
+        -1838.3002606734644,
+        395.2235107421875,
+        618.7608276367188
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ue_links": [],
+    "ds": {
+      "scale": 0.6588450000000016,
+      "offset": [
+        -118.40061085268769,
+        2577.5863980253957
+      ]
+    },
+    "links_added_by_ue": [],
+    "frontendVersion": "1.28.7"
+  },
+  "version": 0.4
+}
