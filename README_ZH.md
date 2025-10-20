@@ -1,8 +1,8 @@
 # ComfyUI-CCXManager
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/dcc7d4e1-d71a-452b-ba59-612c8a5ef340" alt="CCXManager节点界面" width="700">
-  <br>
+  <img width="1439" height="934" alt="CN" src="https://github.com/user-attachments/assets/0f94bbfd-9096-4dae-aec4-f6d5d5676440" />
+<br>
   <p><strong>SD-PPP插件更新助手 - 自动管理Photoshop侧插件更新</strong></p>
 </div>
 
@@ -15,7 +15,8 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 - ✅ 支持网站下载CCX进行更新
 - ✅ 具备智能检测功能，仅在SD-PPP有更新时运行.
 - ✅ 提供可视化运行信息，在ComfyUI控制台显示运行状态
-
+- ✅ 添加Comfyui侧自动更新SDPPP节点（新）
+  
 > **注意：** 只支持本地部署的ComfyUI，不支持云端ComfyUI.
 
 ## 🛠️ 安装条件
@@ -118,6 +119,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
