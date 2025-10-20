@@ -44,8 +44,8 @@ git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 ## 🚀 使用说明
 
 CCXManag节点有三个节点：
-Photoshop side automatic update SDPPP2.0
-Photoshop side automatic update SDPPp1.0
+Photoshop side automatic update SDPPP2.0/
+Photoshop side automatic update SDPPp1.0/
 Comfyui side automatic update SDPPP
 
 ### source_type选择输入：
@@ -118,6 +118,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
