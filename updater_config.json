@@ -1,0 +1,16 @@
+{
+    "repos": [
+        {
+            "repo_url": "https://github.com/zombieyang/sd-ppp.git",
+            "node_name": "sd-ppp",
+            "branch": "main",
+            "auto_update": true,
+            "last_commit_sha": "4c4a3203c97490a404b4a3fc7e00d526fd61e0bd",
+            "last_update_time": ""
+        }
+    ],
+    "auto_update_on_start": true,
+    "last_check_time": "2025-10-20 11:39:35",
+    "check_interval_days": 1,
+    "max_workers": 5
+}
