@@ -45,8 +45,8 @@ git clone https://github.com/WWWEN8/ComfyUI-CCXManager.git
 ## 🚀 Usage Instructions
 
 The CCXManage node has 3 nodes:
-Photoshop side automatic update SDPPP2.0
-Photoshop side automatic update SDPPp1.0
+Photoshop side automatic update SDPPP2.0/
+Photoshop side automatic update SDPPp1.0/
 Comfyui side automatic update SDPPP
 
 ### source_type selection input:
@@ -115,6 +115,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
