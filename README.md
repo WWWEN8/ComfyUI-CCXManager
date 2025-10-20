@@ -16,6 +16,7 @@ Users who have previously used the SD-PPP node found it very troublesome. When t
 - ✅ Supports downloading CCX from websites for updates
 - ✅ Has intelligent detection functionality, only runs when SD-PPP has updates
 - ✅ Provides visual operation information, displaying operation status in the ComfyUI console
+- ✅ Add Comfyui side automatic update SDPPP node
 
 > **Note:** Only supports locally deployed ComfyUI, not cloud-based ComfyUI
 
@@ -113,6 +114,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
