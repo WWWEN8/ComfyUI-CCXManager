@@ -94,9 +94,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 
 <img width="673" height="583" alt="21a79508-1014-4a2a-8aa8-2c14482e8717" src="https://github.com/user-attachments/assets/334be199-393b-4a03-95cc-32513dfd1020" />
 
-运行节点后控制台，会显示运行信息如下（ComfyUI重启后也会看到控制台运行信息）：
-
-<img width="967" height="254" alt="e74fa9df-225a-4342-9111-ce818a7a802a" src="https://github.com/user-attachments/assets/81564e23-7cd8-4c7b-a802-295a1e9d157f" />
+运行节点后控制台，会显示运行信息如下（ComfyUI重启后也会看到控制台运行信息）
 
 到Photoshop软件查看插件是否安装成功
 
@@ -122,6 +120,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
