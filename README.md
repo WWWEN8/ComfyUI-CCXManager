@@ -91,7 +91,7 @@ After enabling, you need to run it once for it to take effect. The next time Com
 
 After running the node, the console will display the running information as follows (you can also see the console running information after ComfyUI restart):
 
-<img width="967" height="254" alt="4" src="https://github.com/user-attachments/assets/eb1565c1-09d1-4ac7-969b-f6c3fe3a0df7" />
+<img width="992" height="199" alt="93a36210-5723-4959-bd90-ebb561810540" src="https://github.com/user-attachments/assets/cc375204-2c64-416b-91b8-b4d96b4cf710" />
 
 Check in Photoshop software whether the plugin is installed successfully
 
@@ -114,6 +114,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
