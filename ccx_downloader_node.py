@@ -275,7 +275,7 @@ class CCXManager:
         }
 
     RETURN_TYPES = ("STRING",)
-    RETURN_NAMES = ("运行状态",)
+    RETURN_NAMES = ("Status",)
     FUNCTION = "process_ccx"
     CATEGORY = "SD-PPP插件更新"
     TITLE = "SDPPP插件更新助手2.0最新"
@@ -326,7 +326,7 @@ class CCXManagerCopy:
         }
 
     RETURN_TYPES = ("STRING",)
-    RETURN_NAMES = ("运行状态",)
+    RETURN_NAMES = ("Status",)
     FUNCTION = "process_ccx"
     CATEGORY = "SD-PPP插件更新"
     TITLE = "SDPPP插件更新助手1.0最新"
@@ -363,4 +363,5 @@ manager = CCXManagerNode()
 manager.auto_run()
 # 克隆节点自动运行检查
 manager_copy = CCXManagerNode(config_filename="config_copy.json")
+
 manager_copy.auto_run()
