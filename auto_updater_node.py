@@ -442,6 +442,7 @@ class CCXRepoUpdaterNode:
         }
 
     RETURN_TYPES = ("STRING",)
+    RETURN_NAMES = ("Status",)
     FUNCTION = "process"
     CATEGORY = "SD-PPP插件更新"
 
@@ -530,4 +531,5 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "CCXRepoUpdaterNode": "Comfyui side automatic update SDPPP"
+
 }
