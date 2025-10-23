@@ -5,7 +5,7 @@
 <br>
   <p><strong>SD-PPP插件更新助手 - 自动管理Photoshop侧插件更新</strong></p>
 </div>
-### [工作流](https://github.com/WWWEN8/ComfyUI-CCXManager/blob/d4d885a66f463f66620852b3d95afee34b485599/workflows/SD-PPP%E6%8F%92%E4%BB%B6%E6%9B%B4%E6%96%B0%E5%8A%A9%E6%89%8B-%E6%94%AF%E6%8C%81PS%E6%93%8D%E4%BD%9C.png)
+### 工作流(https://github.com/WWWEN8/ComfyUI-CCXManager/blob/d4d885a66f463f66620852b3d95afee34b485599/workflows/SD-PPP%E6%8F%92%E4%BB%B6%E6%9B%B4%E6%96%B0%E5%8A%A9%E6%89%8B-%E6%94%AF%E6%8C%81PS%E6%93%8D%E4%BD%9C.png)
 
 CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 
@@ -119,6 +119,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
