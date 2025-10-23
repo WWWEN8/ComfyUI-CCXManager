@@ -277,7 +277,7 @@ class CCXManager:
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("Status",)
     FUNCTION = "process_ccx"
-    CATEGORY = "SD-PPP插件更新"
+    CATEGORY = "Update of SD-PPP Plugin"
     TITLE = "SDPPP插件更新助手2.0最新"
 
     def __init__(self):
@@ -365,3 +365,4 @@ manager.auto_run()
 manager_copy = CCXManagerNode(config_filename="config_copy.json")
 
 manager_copy.auto_run()
+
