@@ -83,6 +83,8 @@ Detects the latest updates in GitHub repositories, enter the repository URL. Onc
 
 Default SD-PPP node repository: https://github.com/zombieyang/sd-ppp.git
 
+<img width="427" height="801" alt="EN-1" src="https://github.com/user-attachments/assets/ed4eda7d-5bbb-466f-b511-805c71464231" />
+
 ### auto_run_on_restart select input:
 enable means to enable, automatically runs on ComfyUI restart, enabling the Photoshop plugin synchronization update feature. (Default)
 
@@ -115,6 +117,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
