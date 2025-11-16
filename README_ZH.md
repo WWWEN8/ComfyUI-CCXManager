@@ -94,6 +94,8 @@ disable代表禁用，重启ComfyUI节点不会运行，关闭了Photoshop插件
 
 enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photoshop插件自动同步更新（disable禁用同理）
 
+<img width="429" height="658" alt="CH-1" src="https://github.com/user-attachments/assets/df1ceacb-3770-4820-99e7-7cc84838afe9" />
+
 运行节点后控制台，会显示运行信息如下（ComfyUI重启后也会看到控制台运行信息）
 <img width="992" height="199" alt="93a36210-5723-4959-bd90-ebb561810540" src="https://github.com/user-attachments/assets/cc375204-2c64-416b-91b8-b4d96b4cf710" />
 到Photoshop软件查看插件是否安装成功
@@ -120,6 +122,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
