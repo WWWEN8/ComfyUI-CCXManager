@@ -17,6 +17,7 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 - ✅ 具备智能检测功能，仅在SD-PPP有更新时运行.
 - ✅ 提供可视化运行信息，在ComfyUI控制台显示运行状态
 - ✅ 添加Comfyui侧自动更新SDPPP节点（新）
+- ✅ 最新功能：自动创建安装目录文件夹功能（没有安装过SD-PPP小伙伴有福了，运行此工作流，您的SD-PPP全自动安装和以后得到维护更新）
   
 > **注意：** 只支持本地部署的ComfyUI，不支持云端ComfyUI.
 
@@ -24,7 +25,7 @@ CCXManage是专门为SD-PPP插件开发的一个辅助节点。
 
 1. 已安装Photoshop软件（版本≥24）
 2. ComfyUI侧已安装最新版的SD-PPP节点
-3. 在Photoshop插件目录下创建两个文件夹：`sd-ppp_PS`和`sd-ppp2_PS`
+3. 需要代理网络支持
 
 ## 📦 安装方法
 
@@ -119,6 +120,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
