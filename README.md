@@ -92,11 +92,14 @@ After enabling, you need to run it once for it to take effect. The next time Com
 
 After running the node, the console will display the running information as follows (you can also see the console running information after ComfyUI restart):
 
+### Partners who have previously installed Photoshop can also set it up to run this way:
+
+<img width="427" height="801" alt="EN-1" src="https://github.com/user-attachments/assets/ed4eda7d-5bbb-466f-b511-805c71464231" />
+
 <img width="992" height="199" alt="93a36210-5723-4959-bd90-ebb561810540" src="https://github.com/user-attachments/assets/cc375204-2c64-416b-91b8-b4d96b4cf710" />
 
 Check in Photoshop software whether the plugin is installed successfully
 
-<img width="427" height="801" alt="EN-1" src="https://github.com/user-attachments/assets/ed4eda7d-5bbb-466f-b511-805c71464231" />
 
 ### Notes:
 1.SDPPP plugin update assistant 1.0 latest node, target_path corresponds to "sd-ppp_PS file path"
@@ -117,6 +120,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
