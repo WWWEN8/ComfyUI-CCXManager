@@ -1,7 +1,7 @@
 # ComfyUI-CCXManager
 
 <div align="center">
-<img width="1580" height="969" alt="CH-2" src="https://github.com/user-attachments/assets/f030d01b-82c0-4472-b47d-6fb58fa1be76" />
+<img width="1128" height="787" alt="786f390e-d068-43d2-8037-93c42ca2ea88" src="https://github.com/user-attachments/assets/5ded66a7-49a2-49bf-8cfb-6f49aedea4fc" />
 <br>
   <p><strong>SD-PPP插件更新助手 - 自动管理Photoshop侧插件更新</strong></p>
 </div>
@@ -119,6 +119,7 @@ enable开启后，要运行一次，才能生效，下次重启ComfyUI，Photosh
 ## 📄 许可证
 
 此项目采用MIT许可证 - 详情请查看[LICENSE](LICENSE)文件
+
 
 
 
