@@ -16,6 +16,7 @@ Users who have previously used the SD-PPP node found it very troublesome. When t
 - ✅ Has intelligent detection functionality, only runs when SD-PPP has updates
 - ✅ Provides visual operation information, displaying operation status in the ComfyUI console
 - ✅ Add Comfyui side automatic update SDPPP node
+- ✅ Latest feature: Automatic creation of installation directory folder function (Good news for those who haven't installed SD-PPP yet, run this workflow, and your SD-PPP will be fully automatically installed and subsequently maintained and updated)
 
 > **Note:** Only supports locally deployed ComfyUI, not cloud-based ComfyUI
 
@@ -23,7 +24,7 @@ Users who have previously used the SD-PPP node found it very troublesome. When t
 
 1. Photoshop software installed (version ≥ 24)
 2. The latest version of the SD-PPP node installed on the ComfyUI side
-3. Create two folders in the Photoshop plugin directory: `sd-ppp_PS` and `sd-ppp2_PS`
+3. Requires proxy network support
 
 ## 📦 Installation Methods
 
@@ -114,6 +115,7 @@ GitHub: https://github.com/WWWEN8/ComfyUI-CCXManager
 Issue feedback: Please submit an Issue in the GitHub repository
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details
+
 
 
 
