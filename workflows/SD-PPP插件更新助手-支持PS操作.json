@@ -1,0 +1,739 @@
+{
+  "id": "45d3953d-3dbc-4cb5-b90b-47509d264b28",
+  "revision": 0,
+  "last_node_id": 19,
+  "last_link_id": 10,
+  "nodes": [
+    {
+      "id": 12,
+      "type": "Fast Groups Bypasser (rgthree)",
+      "pos": [
+        759.563898682212,
+        -2190.5081402683536
+      ],
+      "size": [
+        357.05096435546875,
+        183.21641540527344
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "可选连接",
+          "name": "OPT_CONNECTION",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "title": "1-2.选择",
+      "properties": {
+        "matchColors": "",
+        "matchTitle": "",
+        "showNav": true,
+        "showAllGraphs": true,
+        "sort": "position",
+        "customSortAlphabet": "",
+        "toggleRestriction": "default",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "1-2.选择"
+      }
+    },
+    {
+      "id": 15,
+      "type": "PrimitiveNode",
+      "pos": [
+        1230.3767571495237,
+        -2199.2304074298117
+      ],
+      "size": [
+        269.21226081795464,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "BOOLEAN",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "auto_update"
+          },
+          "links": [
+            8
+          ]
+        }
+      ],
+      "title": "1-1.Comfyui侧自动更新开关",
+      "properties": {
+        "Run widget replace on values": false,
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "1-1.Comfyui侧自动更新开关"
+      },
+      "widgets_values": [
+        true
+      ]
+    },
+    {
+      "id": 13,
+      "type": "CCXRepoUpdaterNode",
+      "pos": [
+        1234.865435344919,
+        -2100.1100015614275
+      ],
+      "size": [
+        500.15118211286654,
+        141.66347767943307
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "auto_update",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "auto_update"
+          },
+          "link": 8
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Status",
+          "type": "STRING",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "title": "Comfyui侧自动更新SDPPP",
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "a33fc3ae580944a500443b1d0dba963d1b0e49c9",
+        "Node name for S&R": "CCXRepoUpdaterNode",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "https://github.com/zombieyang/sd-ppp.git",
+        true,
+        false
+      ]
+    },
+    {
+      "id": 1,
+      "type": "CCXManager",
+      "pos": [
+        1223.6528020859337,
+        -1478.4869847633931
+      ],
+      "size": [
+        318.5259765625,
+        154
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "target_path",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Status",
+          "type": "STRING",
+          "links": [
+            6
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "8cc997cef80defe25c05fab936d6462b0c181f54",
+        "Node name for S&R": "CCXManager",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "url",
+        "https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp2_PS.ccx",
+        "",
+        "https://github.com/zombieyang/sd-ppp.git",
+        "enable"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CCXManagerCopy",
+      "pos": [
+        1227.0795701685747,
+        -1685.0064349756224
+      ],
+      "size": [
+        318.5259765625,
+        154
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "target_path",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Status",
+          "type": "STRING",
+          "links": [
+            5
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "8cc997cef80defe25c05fab936d6462b0c181f54",
+        "Node name for S&R": "CCXManagerCopy",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "url",
+        "https://gitee.com/zombieyang/sd-ppp/raw/main/static/sd-ppp_PS.ccx",
+        "",
+        "https://github.com/zombieyang/sd-ppp.git",
+        "enable"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "CreateSDPPPInstallationDirectory",
+      "pos": [
+        1235.0852188307485,
+        -1826.8168203207135
+      ],
+      "size": [
+        325.5474609375,
+        82
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "base_directory",
+          "type": "STRING",
+          "widget": {
+            "name": "base_directory"
+          },
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Status",
+          "type": "STRING",
+          "links": [
+            10
+          ]
+        }
+      ],
+      "properties": {
+        "aux_id": "WWWEN8/ComfyUI-CCXManager",
+        "ver": "3253d1da08d847d5b9b7e23ef210f5e374492a07",
+        "Node name for S&R": "CreateSDPPPInstallationDirectory",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "",
+        "enable"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "Text Multiline",
+      "pos": [
+        765.6612445041774,
+        -1413.9092535529774
+      ],
+      "size": [
+        411.5644082214137,
+        138.88270521589857
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": ".使用说明",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": ".使用说明"
+      },
+      "widgets_values": [
+        "\n↑只修改“安装目录路径”，“sd-PPP1.0安装路径”和“sd-PPP2.0安装路径”三个地方，其他参数不用修改。"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 19,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1584.9003097120253,
+        -1826.5012804547941
+      ],
+      "size": [
+        198.8199167184248,
+        115.8728240102023
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 10
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": ".1.0安装状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": ".1.0安装状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 7,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1575.9297604768465,
+        -1649.5966238945136
+      ],
+      "size": [
+        210,
+        127.05286407470703
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 5
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": ".1.0安装状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": ".1.0安装状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 8,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1582.9183198019994,
+        -1479.3832250301823
+      ],
+      "size": [
+        210,
+        106.58309936523438
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": ".2.0安装状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": ".2.0安装状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 14,
+      "type": "ShowText|pysssss",
+      "pos": [
+        1792.1185702866028,
+        -2171.723613730563
+      ],
+      "size": [
+        250.2825149196815,
+        189.08892575839218
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": ".#Comfyui侧自动更新状态",
+      "properties": {
+        "cnr_id": "comfyui-custom-scripts",
+        "ver": "1.2.5",
+        "Node name for S&R": "ShowText|pysssss",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": ".#Comfyui侧自动更新状态"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 17,
+      "type": "PrimitiveNode",
+      "pos": [
+        761.1417876490833,
+        -1819.9929693877207
+      ],
+      "size": [
+        435.2179300485311,
+        64.31300467186611
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "base_directory"
+          },
+          "links": [
+            9
+          ]
+        }
+      ],
+      "title": "1.安装目录路径",
+      "properties": {
+        "Run widget replace on values": false,
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "1.安装目录路径"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 3,
+      "type": "PrimitiveNode",
+      "pos": [
+        765.8422017413639,
+        -1699.7283804021808
+      ],
+      "size": [
+        431.9424133300781,
+        109.77384948730469
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "links": [
+            1
+          ]
+        }
+      ],
+      "title": "2.sd-PPP1.0安装路径",
+      "properties": {
+        "Run widget replace on values": false,
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "2.sd-PPP1.0安装路径"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 6,
+      "type": "PrimitiveNode",
+      "pos": [
+        759.2658538738815,
+        -1537.4028713251646
+      ],
+      "size": [
+        430.3104553222656,
+        66.52769470214844
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "widget": {
+            "name": "target_path"
+          },
+          "links": [
+            4
+          ]
+        }
+      ],
+      "title": "3.sd-PPP2.0安装路径",
+      "properties": {
+        "Run widget replace on values": false,
+        "sdppp_widgetable_title": "3.sd-PPP2.0安装路径",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 9,
+      "type": "Text Multiline",
+      "pos": [
+        1854.7384344064906,
+        -1821.1763582744975
+      ],
+      "size": [
+        317.4163341837534,
+        515.6196119696276
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "字符串",
+          "name": "STRING",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "title": "#4.使用说明",
+      "properties": {
+        "cnr_id": "was-node-suite-comfyui",
+        "ver": "ea935d1044ae5a26efa54ebeb18fe9020af49a45",
+        "Node name for S&R": "Text Multiline",
+        "widget_ue_connectable": {},
+        "sdppp_widgetable_title": "#4.使用说明"
+      },
+      "widgets_values": [
+        "#节点说明：\n设置运行一次，以后SD-PPP（Photoshop侧和Comfyui侧）有更新情况，自动帮您同步更新，完全摆脱手动去更新插件和节点了。（最新功能：没有安装过SD-PPP小伙伴有福了，运行此工作流自动全部安装和以后维护更新）\n\n#使用方法\n1.安装目录路径输入：“<photoshop安装目录>\\Plug-ins”\n例如：C:\\Program Files\\Adobe\\Adobe Photoshop 2025\\Plug-ins\n\n2.sd-PPP1.0安装路径输入：“<photoshop安装目录>\\Plug-ins\\sd-ppp_PS”\n\n例如：C:\\Program Files\\Adobe\\Adobe Photoshop 2025\\Plug-ins\\sd-ppp_PS\n\n3.sd-PPP2.0安装路径输入：“<photoshop安装目录>\\Plug-ins\\sd-ppp2_PS”\n\n例如：C:\\Program Files\\Adobe\\Adobe Photoshop 2025\\Plug-ins\\sd-ppp2_PS\n\n4.之前安装过Photoshop侧SD-PPP2.0，可以先在Comfyui侧保存好这个工作流，在Photoshop侧打开这个工作流操作\n\n5.在Photoshop侧，“Comfyui侧自动更新SDPPP”和“value”开关打勾，重启Comfyui自动检测节点更新情况，有更新自动更新（Comfyui侧运行忽略）\n\n6.点击运行\n\n7.之前有安装过Photoshop侧的文件夹请删掉\n\n8.查看控制台有没成功运行信息\n\n9.Comfyui侧没显示更新，Comfyui侧重启即可\n\n详情请阅读：https://github.com/WWWEN8/ComfyUI-CCXManager"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      3,
+      0,
+      2,
+      0,
+      "STRING"
+    ],
+    [
+      4,
+      6,
+      0,
+      1,
+      0,
+      "STRING"
+    ],
+    [
+      5,
+      2,
+      0,
+      7,
+      0,
+      "STRING"
+    ],
+    [
+      6,
+      1,
+      0,
+      8,
+      0,
+      "STRING"
+    ],
+    [
+      7,
+      13,
+      0,
+      14,
+      0,
+      "STRING"
+    ],
+    [
+      8,
+      15,
+      0,
+      13,
+      0,
+      "BOOLEAN"
+    ],
+    [
+      9,
+      17,
+      0,
+      18,
+      0,
+      "STRING"
+    ],
+    [
+      10,
+      18,
+      0,
+      19,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Photoshop侧自动更新SDPPP，只需要修改这里",
+      "bounding": [
+        749.2658538738815,
+        -1900.4168203207134,
+        1053.6524659281179,
+        635.3902719836348
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "Comfyui侧自动更新SDPPP",
+      "bounding": [
+        1220.3767571495237,
+        -2272.8304074298117,
+        832.0243280567606,
+        324.3838835478174
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "使用说明",
+      "bounding": [
+        1844.7384344064906,
+        -1894.7763582744974,
+        337.41633418375363,
+        599.2196119696276
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ue_links": [],
+    "ds": {
+      "scale": 0.5445000000000008,
+      "offset": [
+        -57.3797040091215,
+        2519.4116383869796
+      ]
+    },
+    "links_added_by_ue": [],
+    "frontendVersion": "1.28.9"
+  },
+  "version": 0.4
+}
